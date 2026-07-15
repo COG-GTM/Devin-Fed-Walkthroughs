@@ -9,7 +9,7 @@
 
 ## Checklist
 
-- [ ] Followed [`CONTRIBUTING.md`](../CONTRIBUTING.md).
+- [ ] Followed [`CONTRIBUTING.md`](CONTRIBUTING.md).
 - [ ] Added or updated the walkthrough folder `README.md`.
 - [ ] Added a row to the root README Walkthroughs table if this is a new walkthrough.
 - [ ] Verified relative and external links.

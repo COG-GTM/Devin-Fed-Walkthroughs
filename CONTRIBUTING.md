@@ -16,9 +16,11 @@ Each walkthrough is a self-contained folder with its own `README.md` plus the gu
 ```text
 <walkthrough-name>/
 ├── README.md
-├── walkthrough.html
+├── walkthrough.html     # the guide; a descriptive name like openmct-walkthrough.html is fine too
 └── ...                  # assets, sample files, or other guide material
 ```
+
+The guide file can use any descriptive name — the existing `openmct-favorites-tray` walkthrough names it `openmct-walkthrough.html`. Whatever you choose, link it from the folder's `README.md`.
 
 The [`_template/`](./_template/) folder is a starter scaffold for new walkthroughs. It is not itself a walkthrough and does not appear in the root index table.
 
