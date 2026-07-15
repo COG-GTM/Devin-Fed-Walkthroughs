@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>&lt;WALKTHROUGH TITLE&gt; — Devin Desktop + CLI</title>
+  <style>
+    :root { --ink:#0f172a; --muted:#64748b; --border:#e2e8f0; --soft:#f8fafc; --accent:#00a99d; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; color: var(--ink); background: #fff; font: 16px/1.7 system-ui, sans-serif; }
+    .page { max-width: 52rem; margin: 0 auto; padding: 3rem 1.5rem 5rem; }
+    h1 { margin: .5rem 0 1rem; font-size: clamp(2.2rem, 6vw, 3.5rem); line-height: 1.1; }
+    h2 { margin: 3rem 0 1rem; padding-top: .5rem; border-top: 1px solid var(--border); }
+    h3 { margin-top: 2rem; }
+    .eyebrow { color: var(--accent); font-size: .75rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+    .placeholder { padding: 1rem 1.2rem; border: 1px solid #99f6e4; border-radius: .8rem; background: #f0fdfa; }
+    pre { overflow: auto; padding: 1rem; border-radius: .7rem; background: #0f172a; color: #e2e8f0; }
+    code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+    a { color: #0284c7; }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <div class="eyebrow">Devin Federal Walkthrough</div>
+      <h1>&lt;WALKTHROUGH TITLE&gt;</h1>
+      <p class="placeholder">&lt;ONE-SENTENCE DESCRIPTION OF THE CONCRETE RESULT&gt;</p>
+      <!-- Replace every placeholder with the actual codebase, prompts, commands, and checkpoints. -->
+    </header>
+
+    <section id="part-0-setup">
+      <h2>Part 0 — Set up</h2>
+      <p>&lt;Clone the codebase, install prerequisites, and confirm the starting point.&gt;</p>
+      <pre><code>&lt;COMMANDS&gt;</code></pre>
+    </section>
+
+    <section id="part-1-understand">
+      <h2>Part 1 — Understand</h2>
+      <p>&lt;Use DeepWiki, Codemaps, Tab, or equivalent surfaces to map the relevant architecture.&gt;</p>
+      <div class="placeholder">&lt;Prompt or checkpoint: what should the reader understand before changing code?&gt;</div>
+    </section>
+
+    <section id="part-2-plan">
+      <h2>Part 2 — Plan</h2>
+      <p>&lt;Use Cascade Ask and Plan modes to turn the goal into a scoped implementation plan.&gt;</p>
+      <div class="placeholder">&lt;Add the plan prompt and the evidence that the scope is ready.&gt;</div>
+    </section>
+
+    <section id="part-3-build">
+      <h2>Part 3 — Build</h2>
+      <p>&lt;Implement the change using the repository's conventions and relevant Devin surfaces.&gt;</p>
+      <pre><code>&lt;BUILD COMMANDS OR PROMPT&gt;</code></pre>
+    </section>
+
+    <section id="part-4-extend">
+      <h2>Part 4 — Extend</h2>
+      <p>&lt;Optional: show AGENTS.md, Skills, CLI, or MCP as part of the reusable workflow.&gt;</p>
+      <!-- Remove this section if the walkthrough does not use an extension surface. -->
+    </section>
+
+    <section id="part-5-verify">
+      <h2>Part 5 — Verify</h2>
+      <p>&lt;Run tests, inspect the live result, and record a concrete verification checkpoint.&gt;</p>
+      <pre><code>&lt;VERIFICATION COMMANDS&gt;</code></pre>
+      <div class="placeholder">&lt;Expected result: describe what success looks like.&gt;</div>
+    </section>
+
+    <section id="part-6-cli-mcp">
+      <h2>Part 6 — CLI + MCP</h2>
+      <p>&lt;Optional: repeat the workflow from the CLI or use MCP to connect an external tool.&gt;</p>
+      <!-- Remove this section if the walkthrough does not use CLI or MCP. -->
+    </section>
+
+    <!-- Add or remove parts to match your walkthrough. End on a verification step. -->
+  </main>
+</body>
+</html>

@@ -20,9 +20,11 @@ Every walkthrough is a self-contained folder:
 └── ...            ← the walkthrough itself (HTML guide, assets, sample files)
 ```
 
-Start with a walkthrough's `README.md`, then open its guide and follow along.
+New walkthroughs can start from the [`_template/`](./_template/) scaffold, which includes a README and lightweight HTML guide skeleton. Start with a walkthrough's `README.md`, then open its guide and follow along.
 
 ## Contributing — PRs and forks welcome
+
+See **[CONTRIBUTING.md](./CONTRIBUTING.md)** for the full guide.
 
 **These are living walkthroughs, and they get better when you make them better.** Spotted a typo, hit a step that didn't match your environment, found a cleaner prompt, or want to add a whole new walkthrough? Please contribute.
 
