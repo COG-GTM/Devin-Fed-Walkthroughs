@@ -7,6 +7,7 @@ Hands-on, self-contained walkthroughs for engineers evaluating **[Devin](https:/
 | Walkthrough | Codebase | Stack | What you build |
 |-------------|----------|-------|----------------|
 | [**Open MCT — Favorites tray**](./openmct-favorites-tray/) | [NASA Open MCT](https://github.com/nasa/openmct) | JavaScript / Vue 3 | A right-click "Add to Favorites" action + a header tray listing pinned objects, end to end |
+| [**ATT&CK Navigator — Coverage Gap report**](./attack-navigator-coverage-gap/) | [MITRE ATT&CK Navigator](https://github.com/mitre-attack/attack-navigator) | TypeScript / Angular | A sidebar panel showing per-tactic annotation coverage, the uncovered techniques, and a CSV export, from a bare machine to a working feature (FedRAMP Desktop + CLI) |
 
 _More walkthroughs coming — each lives in its own folder with a self-contained README and assets._
 
